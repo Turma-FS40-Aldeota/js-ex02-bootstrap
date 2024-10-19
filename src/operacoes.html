@@ -54,10 +54,33 @@
         </div>
     </header>
 
-    <main class=" container">
-        <h1>Operações</h1>
-    </main>
+    <main class="container mt-5">
 
+        <div class="form-group">
+            <div class="col-lg-2">
+                <label for="numero1">Primeiro Número:</label>
+                <input type="number" id="number1" class="form-control" placeholder="Digite um número..." />
+            </div>
+
+            <div class="col-lg-2 mt-3">
+                <label for=" numero2">Segundo Número:</label>
+                <input type="number" id="number2" class="form-control" placeholder="Digite um número..." />
+            </div>
+
+        </div>
+
+        <button id=" btn-somar" onclick="somar()" class="btn btn-primary mt-3">Somar</button>
+        <button id=" btn-somar" onclick="subtrair()" class="btn btn-primary mt-3">Subtrair</button>
+        <button id=" btn-somar" onclick="multiplicar()" class="btn btn-primary mt-3">Multiplicar</button>
+        <button id=" btn-somar" onclick="dividir()" class="btn btn-primary mt-3">Dividir</button>
+        <button id=" btn-limpar" onclick="limpar()" class="btn btn-primary mt-3">Limpar</button>
+
+        <!-- Área fixa para exibir o resultado/mensagens -->
+        <div id="resultado-area" class="col-lg-4 mt-4 p-3 border border-info">
+            <h5><span id="resultado">Área de Mensagens</span></h5>
+        </div>
+
+    </main>
 
     <footer class="container mt-5 py-4 custom-bg-color text-black text-center">
         <hr class="bg-dark">
@@ -65,6 +88,8 @@
             <span>JEAS Softwares - 2024 &copy; Todos os Direitos Reservados</span>
         </div>
     </footer>
+
+    <script src="../js/operacoes.js"></script>
 
 </body>
 
