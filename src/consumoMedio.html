@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soma</title>
+
+    <!-- Configuração Favicon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon/logo-favicon.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Links Font Awsome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link href="../bootstrap/bootstrap.min.css" rel="stylesheet">
+    <script src="../bootstrap/bootstrap.min.js"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+
+</head>
+
+<body>
+
+    <header class="container">
+        <div class="d-flex justify-content-between py-4 align-items-center">
+            <!-- Logo no lado esquerdo -->
+            <div class="logo">
+                <a href="../index.html"><img src="../assets/images/logo.svg" class="img-thumbnail" alt="Logo"
+                        width="50"></a>
+            </div>
+
+            <!-- Texto centralizado -->
+            <span class="mx-auto font-weight-bold h2">Exercício02 - JavaScript & Bootstrap - Consumo Médio</span>
+
+            <!-- Menu no lado direito -->
+            <nav>
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link anchor" href="./soma.html">Soma</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link anchor" href="./operacoes.html">Operações</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link anchor" href="./consumoMedio.html">Consumo Médio</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container mt-5">
+
+        <div class="form-group">
+            <div class="col-lg-2">
+                <label for="numero1">Distância Percorrida (Km):</label>
+                <input type="number" id="number1" class="form-control" placeholder="Digite a distância..." />
+            </div>
+
+            <div class="col-lg-3 mt-3">
+                <label for=" numero2">
+                    Volume de Combustível Consumido (l):
+                </label>
+                <input type="number" id="number2" class="form-control" placeholder="Digite o Volume Combustível..." />
+            </div>
+
+        </div>
+
+        <button id=" btn-somar" onclick="calcular()" class="btn btn-primary mt-3">Calcular</button>
+        <button id=" btn-limpar" onclick="limpar()" class="btn btn-primary mt-3">Limpar</button>
+
+        <!-- Área fixa para exibir o resultado/mensagens -->
+        <div id="resultado-area" class="col-lg-4 mt-4 p-3 border border-info">
+            <h5><span id="resultado">Área de Mensagens</span></h5>
+        </div>
+
+    </main>
+
+    <footer class="container mt-5 py-4 custom-bg-color text-black text-center">
+        <hr class="bg-dark">
+        <div>
+            <span>JEAS Softwares - 2024 &copy; Todos os Direitos Reservados</span>
+        </div>
+    </footer>
+
+    <script src="../js/combustivel.js"></script>
+
+</body>
+
+</html>
