@@ -52,7 +52,7 @@ O site consiste em três funcionalidades principais que permitem ao usuário rea
 Faça o **download** ou **clone** deste repositório:
 
 ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+   git clone https://github.com/Turma-FS40-Aldeota/js-ex02-bootstrap.git
    ```
 
 Navegue até o diretório do projeto e abra o arquivo `index.html` em seu navegador.
