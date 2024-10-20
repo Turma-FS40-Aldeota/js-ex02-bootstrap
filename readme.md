@@ -39,11 +39,13 @@ O site consiste em três funcionalidades principais que permitem ao usuário rea
 │   ├── reset.css                # Reset de estilos padrão
 │   └── style.css                # Estilos personalizados
 ├── js/
-│   └── index.js                 # Lógica JavaScript principal
+│   └── combustivel.js           # Lógica JavaScript para cálculo de consumo médio
+│   └── operacoes.js             # Lógica JavaScript para cálculo da calculadora completa
+│   └── soma.js                  # Lógica JavaScript para cálculo da calculadora de soma
 ├── src/
-│   ├── soma.html                # Página da calculadora de soma
-│   ├── operacoes.html           # Página da calculadora completa
 │   └── consumoMedio.html        # Página de cálculo de consumo médio
+│   └── operacoes.html           # Página da calculadora completa
+│   └── soma.html                # Página da calculadora de soma
 └── index.html                   # Página principal do projeto
 ```
 
