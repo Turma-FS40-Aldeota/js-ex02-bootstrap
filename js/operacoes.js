@@ -1,3 +1,6 @@
+// Arquivo: operacoes.js
+
+// Funções Calcular Operações
 function somar() {
 
     // Obtendo os valores dos inputs
@@ -62,7 +65,7 @@ function dividir() {
     }
 }
 
-
+// Função Limpar Mensagens
 function limpar() {
     document.getElementById('number1').value = "";
     document.getElementById('number2').value = "";

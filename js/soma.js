@@ -1,3 +1,6 @@
+// Arquivo: soma.js
+
+// Função Calcular Soma
 function somar() {
     // Obtendo os valores dos inputs
     const num1 = parseFloat(document.getElementById('number1').value);
@@ -12,6 +15,7 @@ function somar() {
     }
 }
 
+// Função Limpar Mensagens
 function limpar() {
     document.getElementById('number1').value = "";
     document.getElementById('number2').value = "";

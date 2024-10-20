@@ -309,7 +309,8 @@ Acesse o endereço `http://localhost:3000` no navegador para visualizar o projet
 11. Escrever um algoritmo que leia o nome e as três notas obtidas por um aluno durante o semestre. Calcular a sua média (aritmética), informar o nome e sua menção aprovado (media >= 7), Reprovado (media <= 5) e Recuperação (media entre 5.1 a 6.9).
 12. Faça um algoritmo que receba o número do mês e mostre o mês correspondente. Valide mês inválido.
 13. Faça um algoritmo que calcule o valor da conta de luz de uma pessoa. Sabe-se que o cálculo da conta de luz segue a tabela abaixo:
-    Tipo de Cliente Valor do KW/h 1 (Residência) 0,60
+    Tipo de Cliente Valor do KW/h
+    1 (Residência) 0,60
     2 (Comércio) 0,48
     3 (Indústria) 1,29
     O algoritmo deve solicitar o tipo do cliente (1, 2 ou 3) e o consumo mensal em KW/h. Ao final, o algoritmo deve informar o valor a ser pago.

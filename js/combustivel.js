@@ -1,3 +1,6 @@
+// Arquivo: combustivel.js
+
+// Função Calcular Consumo de Combustível
 function calcular() {
     // Obtendo os valores dos inputs
     const num1 = parseFloat(document.getElementById('number1').value);
@@ -12,6 +15,7 @@ function calcular() {
     }
 }
 
+// Função Limpar Mensagens
 function limpar() {
     document.getElementById('number1').value = "";
     document.getElementById('number2').value = "";
